@@ -146,16 +146,16 @@ int main()
 	{
 		cout << "not opened" << endl;
 	}
-	cout << fdata[5].size()<<endl;
-	cout << func_real(165, 40, tdata) << endl;
+	//cout << fdata[5].size()<<endl;
+	//cout << func_real(165, 40, tdata) << endl;
 	//cout << func_rand(165, 40, fdata,sumr) << endl;
-	cout <<  fdata[2][1].dec << endl;
+	//cout <<  fdata[2][1].dec << endl;
 	//cout << sumr << endl;
 	/*cout << func_rand(165, 40, fdata, sumr) << endl;
 	cout << data[0].ccw << ", " << data[0].ra << ", " << endl;
 	cout << data[77839].ccw << ", " << data[77839].ra << ", " << endl;
 	cout << data[0].cosine(165, 40) << endl;*/
-	/*for (double ra =0; ra < 361; ra += 5)
+	for (double ra =0; ra < 361; ra += 5)
 	{	
 		for (double dec = -90; dec < 91; dec += 5)
 		{
@@ -171,7 +171,7 @@ int main()
 
 	cout << "done" << endl;
 
-	cout << "galaxy" << endl;*/
+	cout << "galaxy" << endl;
 	system("pause");
 	return 0;
 }
