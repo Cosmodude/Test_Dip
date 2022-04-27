@@ -107,7 +107,7 @@ double func_real(double alpha, double dzeta, vector <Galaxy>(&mass))
 		}
 	}
 	//cout << sum << endl;
-	return pow(mass.size() - sum, 2) / mass.size();
+	return pow((mass.size()/2) - sum, 2) / (mass.size()/2);
 }
 
 double func_rand(double alpha, double dzeta, vector <vector<Galaxy>>(&mass), double(&sumr))
