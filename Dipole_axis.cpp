@@ -107,7 +107,7 @@ double func_real(double alpha, double dzeta, vector <Galaxy>(&mass))
 		}
 	}
 	//cout << sum << endl;
-	return pow((mass.size()/2) - sum, 2) / (mass.size()/2);
+	return (pow((mass.size()/2) - sum, 2) + pow((mass.size() / 2) - sum, 2)) / (mass.size() / 2);
 }
 
 double func_rand(double alpha, double dzeta, vector <vector<Galaxy>>(&mass), double(&sumr))
@@ -146,7 +146,7 @@ int main()
 	{
 		cout << "not opened" << endl;
 	}
-	//cout << fdata[5].size()<<endl;
+	cout << fdata[5].size()<<endl;
 	//cout << func_real(165, 40, tdata) << endl;
 	//cout << func_rand(165, 40, fdata,sumr) << endl;
 	//cout <<  fdata[2][1].dec << endl;
